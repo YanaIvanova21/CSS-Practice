@@ -1,12 +1,13 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-weight: bolder;
 }
 
 h1 {
     font-size: 5.625rem;
-    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     color: #66BFBF;
 }
@@ -14,22 +15,39 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: bolder;
     color: #66BFBF;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     color: #11999E;
 }
 
 hr {
-    border: 7px;
-    border-style: dotted none none;
+    border: 6px dotted #b3b4b4;
+    border-bottom: none;
     width: 4%;
-    color: #b3b4b4;
+    margin: 100px auto;
 }
 
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
 .pro {
     text-decoration: underline;
 }
@@ -38,11 +56,6 @@ hr {
     background-color: #CCF2F4;
     padding-top: 100px;
     position: relative;
-}
-
-.middle-container {
-    background-color: white;
-    color: #40514E;
 }
 
 .top-cloud {
@@ -63,14 +76,18 @@ hr {
     margin-top: 100px;
 }
 
-.profile {
-    width: 25%;
-    margin: 100px auto 100px;
-    line-height: 2;
+.middle-container {
+    background-color: white;
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin:auto;
 }
 
 .profile img {
-    width: 50%;
+    width: 12.5%;
 }
 
 .skills {
@@ -80,9 +97,7 @@ hr {
     width: 50%;
     margin: 100px auto 100px;
     text-align: left;
-    line-height: 2;
 }
-
 
 .design {
     width: 25%;
@@ -97,13 +112,12 @@ hr {
 }
   
 .contact-me {
-    margin: 100px auto 100px;
-    line-height: 2;
+    margin: 100px auto;
 }
 
-.contact-me p {
-    margin: 32px auto 50px auto;
-    width: 35%;
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
 }
 
 .btn {
@@ -113,11 +127,12 @@ hr {
     background-image: -ms-linear-gradient(top, #78dbdb, #66BFBF);
     background-image: -o-linear-gradient(top, #78dbdb, #66BFBF);
     background-image: linear-gradient(to bottom, #78dbdb, #66BFBF);
-    -webkit-border-radius: 21;
-    -moz-border-radius: 10;
-    border-radius: 10px;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
     color: #EAF6F6;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -137,10 +152,13 @@ hr {
 .bottom-container {
     background-color: #66BFBF;
     color: #EAF6F6;
+    padding: 50px 0 20px;
 }
 
-.footer-link {
-    top: 50px;
-    color: #11999E;
-
+.copyright {
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 20px 0;
 }
